@@ -1,4 +1,3 @@
 # Portfolio
-Responsive portfolio website
-Template from bradtraversy
+Responsive portfolio website. Template from bradtraversy
 
