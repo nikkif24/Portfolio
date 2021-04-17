@@ -1,17 +1,15 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Responsive portfolio website",
+  "description": "Responsive Website Portfolio",
   "main": "index.js",
-  "homepage": "https://nikkif24.github.io/Portfolio",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Nicole Flores",
-  "license": "MIT",
-  "dependencies": {
-    "gh-pages": "^1.2.0",
-    "node-sass": "^4.13.1"
-  }
+  "license": "ISC"
 }
