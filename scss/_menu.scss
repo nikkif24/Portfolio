@@ -40,14 +40,13 @@
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.9;
+    opacity: 0.97;
     visibility: hidden;
 
     &.show {
         visibility: visible;
     }
 
-    &-branding,
     &-nav {
         display: flex;
         flex-flow: column wrap;
@@ -70,25 +69,6 @@
         &.show {
             // Slide in from top
             transform: translate3d(0, 0, 0);
-        }
-    }
-    // Branding Side
-    &-branding {
-        background: $primary-color;
-        transform: translate3d(0, 100%, 0);
-        @include easeOut;
-
-        &.show {
-            // Slide in from bottom
-            transform: translate3d(0, 0, 0);
-        }
-
-        .portrait {
-            width: 250px;
-            height: 250px;
-            background: url('../img/portrait.jpg');
-            border-radius: 50%;
-            border: solid 3px $secondary-color;
         }
     }
 

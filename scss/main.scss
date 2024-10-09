@@ -8,7 +8,7 @@
 body {
     @include background;
     background: $primary-color;
-    color: set-text-color($primary-color);
+    color: set-text-color(white);
     height: 100%;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -186,7 +186,7 @@ main {
     text-align: center;
     padding: 1rem;
     background: darken($primary-color, 10);
-    color: set-text-color($primary-color);
+    color: set-text-color(white);
     height: 60px;
 }
 
